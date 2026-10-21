@@ -1,0 +1,31 @@
+SOURCE RECORD - researched 20 October 2026
+
+NRCan (2026): potash definition, KCl, Saskatchewan deposits, exports, mining routes.
+Mosaic (n.d.): Kalium built the Belle Plaine solution mine in 1964.
+SMA (n.d.), pages 1-4: warm-brine dissolution and cooling crystallization;
+reuse of brine; role of chemists. The teaching activity credits Murray Schultz
+and Larry Bogdan. No classroom drawing or photograph is copied.
+Nutrien (n.d.): drying and sizing, mining equipment and transport network.
+Flowers et al. (2019), section 11.2: KCl is an ionic solid whose ions separate
+in water; this is a physical change. No textbook image is copied.
+Nutrien (2026): jobs and local economic activity in Saskatchewan mining communities.
+Kaiser and Rosen (2018): plant use, soil tests and seed damage from salts.
+Saskatchewan ER (2023), Directive PNG008 and Appendix 4: waste-brine containment,
+injection well integrity and groundwater protection.
+USPTO (n.d.): Samuel Hopkins' 1790 patent for improving potash manufacture;
+this is historical context in acknowledgements, not the origin of modern KCl mining.
+
+The infographic compares conventional underground mining with solution mining.
+The written explanation focuses on the solution-mining route.
+The dissolution equation conserves both atoms and charge.
+KCl production here is physical separation of an existing salt, not synthesis.
+There is no numerical graph or invented quantitative data.
+KCl and NaCl are defined on the infographic; ions and solubility in the explanation.
+NRCan = Natural Resources Canada. SMA = Saskatchewan Mining Association.
+Saskatchewan ER = Saskatchewan Ministry of Energy and Resources.
+
+Layout follows the latest user-supplied Snakemake graph example, with its exact
+opaque green, cyan, yellow and red outline colours. The reference has a
+transparent background with black text and arrows; the output uses white.
+All drawing is R/grid and the build is run through Snakemake.
+The written PDF retains its accepted formatting and excludes Design and assistance.

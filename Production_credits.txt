@@ -1,0 +1,82 @@
+PRODUCTION CREDITS
+Checked 20 October 2026
+
+This lists the direct authoring, preview and checking tools used for the final
+files. Each tool's own licence and contributor list covers its dependencies.
+The infographic is entirely R artwork. The written document uses ReportLab.
+
+R Core Team. (2026). R: A language and environment for statistical computing
+(Version 4.6.1) [Computer software]. R Foundation for Statistical Computing.
+https://www.R-project.org/
+Original creators: Ross Ihaka and Robert Gentleman.
+Infographic drawing: grid 4.6.1, created by Paul Murrell.
+PDF/PNG export: built-in R graphics devices, R Core Team and contributors.
+https://www.stat.auckland.ac.nz/~paul/grid/grid.html
+
+Posit team. (2026). RStudio: Integrated development environment for R
+(Version 2026.07.0+139) [Computer software]. Posit Software, PBC.
+https://posit.co/products/open-source/rstudio/
+
+Urbanek, S. (2026). png: Read and write PNG images (Version 0.1-9)
+[Computer software]. https://doi.org/10.32614/CRAN.package.png
+Role: read the exported infographic for the RStudio preview.
+
+Ushey, K., Allaire, J. J., Wickham, H., & Ritchie, G. (2026).
+rstudioapi: Safely access the RStudio API (Version 0.19.0) [Computer software].
+https://doi.org/10.32614/CRAN.package.rstudioapi
+Role: open the R source in RStudio.
+
+Mölder, F., Jablonski, K. P., Letcher, B., Hall, M. B., Tomkins-Tinch, C. H.,
+Sochat, V., Forster, J., Lee, S., Twardziok, S. O., Kanitz, A., Wilm, A.,
+Holtgrewe, M., Rahmann, S., Nahnsen, S., & Köster, J. (2021).
+Sustainable data analysis with Snakemake. F1000Research, 10, Article 33.
+https://doi.org/10.12688/f1000research.29032.2
+Installed version: 9.27.0. Software development: Johannes Köster and contributors.
+Original software paper: Johannes Köster and Sven Rahmann (2012).
+https://snakemake.readthedocs.io/en/latest/project_info/citations.html
+Role: connect input checks, the R infographic build and the document build.
+
+Python: Guido van Rossum, Python Software Foundation and contributors.
+Versions: 3.12.14 for the document builder, 3.13.12 for Snakemake.
+https://docs.python.org/3/license.html
+
+ReportLab 4.4.9: Andy Robinson, Robin Becker, the ReportLab team and community.
+Role: typeset the written explanation, acknowledgements and references.
+https://pypi.org/project/reportlab/4.4.9/
+
+Checking tools, which did not draw the infographic:
+Poppler 26.05.0: The Poppler Developers; underlying Xpdf code credited to
+Glyph & Cog, LLC. Role: render PDF pages for visual inspection.
+https://poppler.freedesktop.org/
+pypdf 6.10.0: Mathieu Fenniak and the pypdf contributors.
+https://pypdf.readthedocs.io/
+pdfplumber 0.11.9: Jeremy Singer-Vine and contributors.
+https://github.com/jsvine/pdfplumber
+Pillow 12.3.0: Jeffrey (Alex) Clark and contributors, building on PIL by
+Fredrik Lundh. Role: image handling in document production and checking.
+https://python-pillow.github.io/
+
+ORCID iD logo: ORCID, Inc. The logo appears in the written document header.
+https://info.orcid.org/brand-guidelines/
+
+CURRENT INFOGRAPHIC LAYOUT
+The user-supplied Snakemake workflow graph is the current layout reference.
+Its green, cyan, yellow and red outline colours are used in the R code.
+The process boxes and arrows are drawn by R/grid. Snakemake runs the file
+builds and input checks. No Graphviz renderer or external diagram artwork
+is embedded in the infographic. The supplied example's original designer
+was not identified, so no individual designer is named.
+
+The school's official contact page supplied the affiliation address:
+https://www.lkdsb.net/o/northern/page/contact-us/
+The user supplied the email address.
+
+POTASH HISTORY AND RESEARCH
+The full content source list is in references.tsv and the written PDF.
+Samuel Hopkins is credited for an early potash-manufacturing improvement
+patented in 1790, supported by the USPTO. This is not the modern KCl process.
+Kalium's team built the Belle Plaine solution mine in 1964, supported by Mosaic.
+Murray Schultz is credited for the teaching activity, and Larry Bogdan for
+the earlier lesson plan adapted by the Saskatchewan Mining Association. They are not presented as inventors
+of modern solution mining. The cited sources identify no single inventor of
+the whole modern process.
